@@ -1,0 +1,8 @@
+# debug module is used to print a message
+- name: debug module
+  hosts: [web]
+  tasks:
+  - name: debug task
+    ansible.builtin.debug:
+      msg: hello world
+      
