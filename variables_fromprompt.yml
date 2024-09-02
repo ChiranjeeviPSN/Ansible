@@ -1,4 +1,4 @@
-- name: variables from file
+- name: variables from prompt
   hosts: web
   vars_prompt:
   - name: COURSE
