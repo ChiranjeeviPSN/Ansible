@@ -19,7 +19,9 @@
       aws:
       - EC2
       - IAM
+      
   tasks:
   - name: print course information
     ansible.builtin.debug:
-      msg: "Iam learning {{course}} with duration {{duration}}, topics are {{topics}} and live: {{live}} and the tools are {{tools}}"
+      msg: "Iam learning {{course}} with duration {{duration}}, topics are {{topics}} and live: {{live}} 
+      and the tools are {{tools}}"
