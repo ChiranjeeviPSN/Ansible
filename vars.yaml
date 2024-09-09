@@ -5,3 +5,4 @@ instances:
 - mysql
 - backend
 - frontend
+zone: devopslearn.store
