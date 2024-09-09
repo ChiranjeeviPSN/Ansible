@@ -1,3 +1,7 @@
-COURSE: "DevOps With AWS" # play level variable
-DURATION: "120 Hours"
-TRAINER: "Siva"
+subnet_id: subnet-02d5d49700de502ab
+sg_id: sg-07a0123c67129d120
+ami_id: ami-09c813fb71547fc4f
+instances:
+- mysql
+- backend
+- frontend
