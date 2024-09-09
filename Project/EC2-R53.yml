@@ -5,6 +5,13 @@
   - ../vars.yaml
 
   tasks:
+  - name: ansible to install boto3 and botocore
+    # install boto3 botocore` to enable your Ansible server to interact with AWS services programmatically. 
+    ansible.builtin.pip:
+      name:
+      - boto3
+      - botocore
+
   - name: create EC2 instances
     amazon.aws.ec2_instance:
       name: "{{ item }}"
